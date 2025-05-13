@@ -26,8 +26,11 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    
 }
-
+.h1top{
+    margin-top: 25px;
+}
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     text-transform: uppercase;
@@ -53,7 +56,11 @@ img {
 section {
     padding: 80px 0;
 }
-
+.logo-royal{
+    width: 100px;
+    height: auto;
+    border-radius: 30px;
+}
 /* Botões */
 .btn-gold {
     display: inline-block;
@@ -72,7 +79,7 @@ section {
     background-color: var(--black);
     color: var(--gold);
 }
-
+.container
 .btn-outline {
     display: inline-block;
     background-color: transparent;
@@ -112,7 +119,7 @@ section {
 .logo img {
     height: 50px; /* Altura fixa */
     width: auto; /* Largura proporcional */
-    max-width: 200px; /* Largura máxima */
+    max-width: 600px; /* Largura máxima */
 }
 
 .main-nav ul {
